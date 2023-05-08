@@ -11,9 +11,9 @@ namespace ProjectAlpha.Entities
         public DateTime EndDate { get; set; }
         public DateTime DeliveryDate { get; set; }
         public TaskStatus Status { get; set; }
-        public List<Staff> Staff { get; set; }
-        public List<Message> Message { get; set; }
-        public List<byte[]> Document { get; set; }  
+        public List<Message>? Staff { get; set; }
+        public List<Message>? Message { get; set; }
+        public List<byte[]>? Document { get; set; }  
     }
 
     public enum TaskStatus
